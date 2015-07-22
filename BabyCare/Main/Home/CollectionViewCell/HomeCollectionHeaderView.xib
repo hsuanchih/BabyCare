@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionReusableView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="U6b-Vx-4bR" customClass="HomeCollectionHeaderView">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="50"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Born:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gek-iu-VpE">
+                    <rect key="frame" x="15" y="12" width="36" height="17"/>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
+                    <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="32 days ago" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WAB-lB-RAJ">
+                    <rect key="frame" x="15" y="29" width="102" height="22"/>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                    <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <constraints>
+                <constraint firstItem="Gek-iu-VpE" firstAttribute="centerY" secondItem="U6b-Vx-4bR" secondAttribute="centerY" multiplier="0.8" id="BEu-vl-l7b"/>
+                <constraint firstItem="Gek-iu-VpE" firstAttribute="leading" secondItem="U6b-Vx-4bR" secondAttribute="leading" constant="15" id="qyn-IE-H2g"/>
+                <constraint firstItem="WAB-lB-RAJ" firstAttribute="top" secondItem="Gek-iu-VpE" secondAttribute="bottom" id="rKV-NF-XNd"/>
+                <constraint firstItem="WAB-lB-RAJ" firstAttribute="leading" secondItem="Gek-iu-VpE" secondAttribute="leading" id="sKs-PC-jjK"/>
+            </constraints>
+            <connections>
+                <outlet property="dayLabel" destination="WAB-lB-RAJ" id="nb6-1T-RtK"/>
+            </connections>
+        </collectionReusableView>
+    </objects>
+</document>

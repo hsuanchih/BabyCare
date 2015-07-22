@@ -124,4 +124,19 @@
     }
 }
 
+#pragma mark - Core Data Reset
+
+- (void) resetCoreDataStack
+{
+    _persistentStoreCoordinator = nil;
+    _managedObjectContext = nil;
+    
+    NSFileManager *fileManager = [NSFileManager defaultManager];
+    NSURL *storeURL = [[self applicationDocumentsDirectory] URLByAppendingPathComponent:@"BabyCare.sqlite"];
+    if ([fileManager fileExistsAtPath:storeURL.path])
+    {
+        [fileManager removeItemAtURL:storeURL error:nil];
+    }
+}
+
 @end
