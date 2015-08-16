@@ -7,14 +7,14 @@
 	<key>IDESourceControlProjectIdentifier</key>
 	<string>45647073-3A04-4119-9617-58458104C423</string>
 	<key>IDESourceControlProjectName</key>
-	<string>BabyCare</string>
+	<string>project</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>C0318965939BF377BC709CF2D76AC8E8132E439D</key>
 		<string>https://github.com/hsuanchih/BabyCare.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>BabyCare.xcodeproj</string>
+	<string>BabyCare.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>C0318965939BF377BC709CF2D76AC8E8132E439D</key>
