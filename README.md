@@ -12,13 +12,16 @@ Proprietary logic (web service, live streaming solution, peer-to-peer communicat
 ## Screenshots
 
 ####Login / Cabinet
-  ![Screenshot-Login](./Screenshots/screenshot-login.png) ![Screenshot-Login](./Screenshots/screenshot-cabinet.png)
+  ![Screenshot-Login](./Screenshots/screenshot-login.png) 
+  ![Screenshot-Login](./Screenshots/screenshot-cabinet.png)
 
 ####Home / Report
-  ![Screenshot-Feed](./Screenshots/screenshot-home.png) ![Screenshot-Contacts](./Screenshots/screenshot-data-report.png)
+  ![Screenshot-Feed](./Screenshots/screenshot-home.png) 
+  ![Screenshot-Contacts](./Screenshots/screenshot-data-report.png)
 
 ####Diary / Diary Editor
-  ![Screenshot-Detail](./Screenshots/screenshot-diary.png) ![Screenshot-Detail](./Screenshots/screenshot-diary-editor.png)
+  ![Screenshot-Detail](./Screenshots/screenshot-diary.png) 
+  ![Screenshot-Detail](./Screenshots/screenshot-diary-editor.png)
  
 ####Live View
   ![Screenshot-Info](./Screenshots/screenshot-live-view.png)
