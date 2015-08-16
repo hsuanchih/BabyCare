@@ -11,35 +11,17 @@ Proprietary logic (web service, live streaming solution, peer-to-peer communicat
   
 ## Screenshots
 
-* ####Login
+####Login / Cabinet
+  ![Screenshot-Login](./Screenshots/screenshot-login.png) ![Screenshot-Login](./Screenshots/screenshot-cabinet.png)
 
-  ![Screenshot-Login](./Screenshots/screenshot-login.png)  
-  
-  
-* ####Cabinet
+####Home / Report
+  ![Screenshot-Feed](./Screenshots/screenshot-home.png) ![Screenshot-Contacts](./Screenshots/screenshot-data-report.png)
 
-  ![Screenshot-Login](./Screenshots/screenshot-cabinet.png)
-
-* ####Home
-
-  ![Screenshot-Feed](./Screenshots/screenshot-home.png)
-
-* ####Data Report
-
-  ![Screenshot-Contacts](./Screenshots/screenshot-data-report.png)
-
-* ####Live View
-
+####Diary / Diary Editor
+  ![Screenshot-Detail](./Screenshots/screenshot-diary.png) ![Screenshot-Detail](./Screenshots/screenshot-diary-editor.png)
+ 
+####Live View
   ![Screenshot-Info](./Screenshots/screenshot-live-view.png)
-  
-* ####Diary
-
-  ![Screenshot-Detail](./Screenshots/screenshot-diary.png)
-  
-* ####Diary Editor
-
-  ![Screenshot-Detail](./Screenshots/screenshot-diary-editor.png)
-  
   
 ## Authors
 #####Hsuan-Chih Chuang
